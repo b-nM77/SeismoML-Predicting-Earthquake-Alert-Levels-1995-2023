@@ -57,7 +57,9 @@ The project uses a structured workflow with **scaling, cross-validation, and imb
 - Include **temporal or regional patterns** to capture location-based trends.
 
 ---
-- Notebook: [View on Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/code/madhurabn/class-imbalance-in-earthquake-prediction)) 
+
+- Notebook: [View on Kaggle](https://www.kaggle.com/code/madhurabn/class-imbalance-in-earthquake-prediction)  
+
 ---
 ## Tech Stack
 
