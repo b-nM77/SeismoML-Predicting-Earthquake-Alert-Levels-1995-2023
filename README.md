@@ -39,7 +39,7 @@ The project uses a structured workflow with **scaling, cross-validation, and imb
 | SMOTE | XGBoost | 0.894 | 0.815 | **0.681** |
 
 **Key takeaway:**  
-> SMOTE with XGBoost achieved the most **balanced and stable performance
+> SMOTE with XGBoost achieved the most **`balanced and stable performance`**
 
 ---
 
