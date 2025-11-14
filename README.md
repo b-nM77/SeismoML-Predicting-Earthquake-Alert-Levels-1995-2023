@@ -31,15 +31,21 @@ The project uses a structured workflow with **scaling, cross-validation, and imb
 ---
 
 ## Results Summary
+ ### Short Notes on Class Imbalance Techniques
+  - **Baseline** — No imbalance handling applied; the model trains on the original class distribution.
+  - **Class Weights** — Gives higher penalty to misclassifying minority classes so the model pays more attention to them.
+  - **SMOTE** — Synthetic Minority Oversampling Technique; creates artificial minority samples by interpolating between real ones to balance the dataset.
 
 | Technique | Best Model | Test Accuracy | Test Macro-F1 |
 |------------|-------------|----------------|----------------|
-| Baseline | Logistic Regression | **0.912** | **0.876** | 
+| Baseline (No imbalance handelling applied) | Logistic Regression | **0.912** | **0.876** | 
 | Class Weights | Logistic Regression | 0.858 | 0.810 | 
 | SMOTE | XGBoost | 0.894 | 0.815 | **0.681** |
 
 **Key takeaway:**  
 > SMOTE with XGBoost achieved the most **`balanced and stable performance`**
+
+Overall, this shows why handling class imbalance really matters in ML. Even if the baseline(No imbalance handling applied) looks good, techniques like class weights and SMOTE help the model treat all classes more fairly and make the final pipeline more reliable.
 
 ---
 
